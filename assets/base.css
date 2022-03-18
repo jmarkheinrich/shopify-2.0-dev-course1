@@ -2205,6 +2205,8 @@ input[type='checkbox'] {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
+  border-top: 8px solid  #EAECEF;
+  ;
 }
 
 .header-wrapper--border-bottom {
