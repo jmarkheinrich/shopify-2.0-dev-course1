@@ -2311,12 +2311,12 @@ input[type='checkbox'] {
 
   .header__heading,
   .header__heading-link {
-    justify-self: right;
+    justify-self: end;
   }
 
   .header--top-center .header__heading-link,
   .header--top-center .header__heading {
-    justify-self: center;
+    justify-self: end;
     text-align: center;
   }
 }
