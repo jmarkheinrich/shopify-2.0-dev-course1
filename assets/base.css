@@ -2239,7 +2239,7 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
+    grid-template-areas: 'heading heading icons';
     grid-template-columns: auto auto 1fr;
     column-gap: 2rem;
   }
