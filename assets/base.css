@@ -1,4 +1,17 @@
+/* Custom fonts  */
+
 /* Color custom properties */
+
+@font-face {
+  font-family: 'Opposit Bold';
+  src: url('Opposit-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Byrd Regular';
+  src: url('Byrd-Regular.otf') format("opentype");
+}
+
 
 :root,
 .color-background-1 {
@@ -2226,7 +2239,7 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
+    grid-template-areas: 'heading heading icons';
     grid-template-columns: auto auto 1fr;
     column-gap: 2rem;
   }
