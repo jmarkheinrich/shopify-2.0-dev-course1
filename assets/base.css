@@ -2623,7 +2623,7 @@ details[open] > .header__submenu {
   background-color: rgb(var(--color-foreground));
 }
 
-.header__menu-item::before {
+.header__menu-item:before {
   width: 100%;
 }
 
