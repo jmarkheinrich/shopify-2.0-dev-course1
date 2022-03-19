@@ -2233,7 +2233,7 @@ input[type='checkbox'] {
     content: "";
     height: 2px;
     width: 100%;
-    top: 0;
+    top: 50%;
     left: 0;
     background-color: blue;
     z-index: 1;
