@@ -2379,6 +2379,8 @@ input[type='checkbox'] {
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+  background-color: white;
+  z-index: 10;
 }
 
 @media screen and (max-width: 989px) {
@@ -2415,6 +2417,8 @@ menu-drawer + .header__search {
 .header__search {
   display: inline-flex;
   line-height: 0;
+  background-color: #fff;
+  z-index: 10;
 }
 
 .header--top-center > .header__search {
