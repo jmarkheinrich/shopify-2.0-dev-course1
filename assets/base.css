@@ -2621,6 +2621,7 @@ details[open] > .header__submenu {
   width: 0;
   height: 2px;
   background-color: rgb(var(--color-foreground));
+  transition: 0.3s;
 }
 
 .header__menu-item:hover:before {
