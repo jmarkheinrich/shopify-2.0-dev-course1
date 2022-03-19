@@ -2228,6 +2228,17 @@ input[type='checkbox'] {
     padding-bottom: 2rem;
   }
 
+  .header-wrapper:before {
+    position:absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    z-index: 1;
+  }
+
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }
